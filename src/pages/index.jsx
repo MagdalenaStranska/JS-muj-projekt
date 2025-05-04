@@ -45,7 +45,7 @@ const Plysaci = () => {
     const plysakText = 'Ctirad tráví svůj čas v blízkosti lednice a s očekáváním pozoruje její bílé dveře.'
 
     return (
-      <div>
+      <div class='plushy'>
         <img src={plysakObrazek} />
         <strong>{plysakJmeno}</strong>
         <p>{plysakText}</p>
@@ -54,7 +54,7 @@ const Plysaci = () => {
   }
 
   return (
-    <div>
+    <div className="plysaci-wrapper">
       <Silvestr />
       <Ctirad />
     </div>
@@ -67,17 +67,19 @@ document.querySelector('#root').innerHTML = render(
       <div className="logo"></div>
       <h1>Plysaci</h1>
       <br />
-      <Odkazy />
+      {/*<Odkazy /> */}
     </header>
     <main>
-      <p>Moje naklonovaná stránka.</p>
+     
+     {/*<p>Moje naklonovaná stránka.</p> */}
+
       <br />
       <Plysaci />
 
     </main>
-    <Footer />
+   {/*} <Footer />
     <footer>
       <p>Czechitas, Digitální akademie: Web</p>
-    </footer>
+    </footer> */}
   </div>
 );

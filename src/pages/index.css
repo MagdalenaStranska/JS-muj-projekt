@@ -5,9 +5,53 @@ header {
   margin-top: 4rem;
 }
 
-.logo {
+/*.logo {
   width: 10rem;
   height: 10rem;
   background-image: url(../img/rocket.svg);
   background-size: contain;
+} */
+
+body {
+  color: rgb(74, 74, 74);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.0rem;
+  font-weight: normal;
+}
+
+.plysaci-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.plushy {
+  width: 300px;
+  text-align: left; 
+  margin: 0 15px;
+}
+
+.plushy img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.plushy strong {
+  display: block;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.plushy p {
+  width: 100px;
+  font-size: 0.5rem;
+  margin-top: 0.5em;
+  text-align: left; 
+  margin-left: 50px;
 }
