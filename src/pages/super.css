@@ -1,3 +1,5 @@
-body {
-    background-color: aquamarine;
+
+.plush {
+    max-width: 300px;
+    float: left;
 }
